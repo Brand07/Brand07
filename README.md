@@ -6,6 +6,8 @@
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", title="CSS", alt="CSS" width="40" heigh="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg", title="HTML5" alt="HTML5" width="40" height="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg", title="Python" alt="Python" width="40" height="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" , title="Swift" alt="Swift" width="40" height="40"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
