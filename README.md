@@ -17,10 +17,13 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg", width="40" height="40" />      
 </div>
 
+
 ---
 
 ### :fire: My Stats :
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Brand07&theme=merko&date_format=M%20j%5B%2C%20Y%5D&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
+![Brand07's Stats](https://github-readme-stats.vercel.app/api?username=Brand07&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+
+![Brand07's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Brand07&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 
 
 
