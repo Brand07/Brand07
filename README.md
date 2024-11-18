@@ -2,7 +2,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=Brand07&style=flat-square&color=blue" alt=""/>
 
----
+
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
@@ -18,7 +18,7 @@
 </div>
 
 
----
+
 
 ### :fire: My Stats :
 ![Brand07's Stats](https://github-readme-stats.vercel.app/api?username=Brand07&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
@@ -41,3 +41,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+---
