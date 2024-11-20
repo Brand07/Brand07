@@ -60,8 +60,7 @@ jobs:
           python Generator/utils/graphing/word_cloud.py
 
       - name: Generate data gif
-        run: |
-          python Generator/utils/gifmaker.py
+        run: python Generator/utils/gifmaker.py
 
       - name: Adjust Readme
         env:
@@ -86,7 +85,7 @@ jobs:
           git config --global user.name "Brandon Yates"
           git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/Brand07/Brand07.git
           git pull origin main --rebase
-        
+
       - name: Push changes
         run: |
           git config --global user.email "81128304+Brand07@users.noreply.github.com"
