@@ -80,10 +80,16 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || git commit -m "Updated Python data" --allow-empty
 
+      - name: Pull latest changes
+        run: |
+          git config --global user.email "81128304+Brand07@users.noreply.github.com"
+          git config --global user.name "Brandon Yates"
+          git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/Brand07/Brand07.git
+          git pull origin main --rebase
+        
       - name: Push changes
         run: |
-           git config --global user.email "81128304+Brand07@users.noreply.github.com"
-           git config --global user.name "Brandon Yates"
-           git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/Brand07/Brand07.git
-           git push origin main
-           #test
+          git config --global user.email "81128304+Brand07@users.noreply.github.com"
+          git config --global user.name "Brandon Yates"
+          git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/Brand07/Brand07.git
+          git push origin main
