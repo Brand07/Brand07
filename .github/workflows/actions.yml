@@ -6,7 +6,6 @@ on:
       - main
   workflow_dispatch:
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +22,6 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
 
-      
       - name: Move files from PythonDataGen to current repository
         run: |
           rm -rf ./Generator
@@ -82,16 +80,9 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || git commit -m "Updated Python data" --allow-empty
 
-      #- name: Push changes
-      #  uses: ad-m/github-push-action@v0.6.0
-      #  with:
-      #    github_token: ${{ secrets.TOKEN }}
-      #    branch: main
-
       - name: Push changes
         run: |
-           git config --global user.email "81128304+Brand07@users.noreply.github.com
+           git config --global user.email "81128304+Brand07@users.noreply.github.com"
            git config --global user.name "Brandon Yates"
            git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/Brand07/Brand07.git
            git push origin main
-          
