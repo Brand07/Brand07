@@ -193,10 +193,10 @@
                 "HP_Printer_Scrape.py"
             ],
             "libraries": [
+                "bs4",
                 "datetime",
                 "pandas",
-                "requests",
-                "bs4"
+                "requests"
             ],
             "total_python_files": 1,
             "total_python_lines": 120,
