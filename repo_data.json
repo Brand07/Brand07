@@ -193,10 +193,10 @@
                 "HP_Printer_Scrape.py"
             ],
             "libraries": [
-                "bs4",
+                "requests",
                 "datetime",
-                "pandas",
-                "requests"
+                "bs4",
+                "pandas"
             ],
             "total_python_files": 1,
             "total_python_lines": 120,
@@ -328,6 +328,65 @@
                 "regular functions created": 0,
                 "async functions created": 0,
                 "classes created": 0
+            }
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "python_files": [
+                "Program/gui.py",
+                "Program/main.py"
+            ],
+            "libraries": [
+                "os",
+                "win32ui",
+                "win32print",
+                "gui",
+                "customtkinter",
+                "logging",
+                "qrcode",
+                "PIL"
+            ],
+            "total_python_files": 2,
+            "total_python_lines": 132,
+            "file_extensions": {
+                ".gitignore": 2,
+                ".md": 1,
+                ".txt": 1,
+                ".iml": 1,
+                ".xml": 6,
+                ".py": 2,
+                ".pyc": 1
+            },
+            "total_commits": 20,
+            "commit_messages": [
+                "Add/Update requirements.txt",
+                "Add/Update Readme",
+                "Change button border_width",
+                "Add functionality to create the QR_Codes directory if it doesn't exist",
+                "Update .gitignore",
+                "Change version number/size of GUI.",
+                "Add ability to choose if you want to print the QR code or not.",
+                "Add Try/Except to the print function",
+                "Add code comments",
+                "Add functionality to print and display the QR Code",
+                "Add new imports",
+                "Mask password entry",
+                "Add .gitignore",
+                "Add function to clear entry boxes after generation",
+                "Add function to generate QR codes",
+                "Finish basic gui",
+                "Move code to main",
+                "Add base gui",
+                "Import libraries",
+                "Init files"
+            ],
+            "construct_counts": {
+                "if statements": 5,
+                "while loops": 0,
+                "for loops": 0,
+                "regular functions created": 6,
+                "async functions created": 0,
+                "classes created": 3
             }
         },
         {
@@ -540,10 +599,10 @@
         },
         "Thursday": {
             "8": 2,
-            "9": 5,
-            "10": 9,
+            "9": 7,
+            "10": 11,
             "11": 5,
-            "12": 6,
+            "12": 7,
             "13": 3,
             "14": 1,
             "15": 4,
@@ -556,7 +615,10 @@
             "8": 1,
             "9": 5,
             "10": 1,
-            "11": 1,
+            "11": 5,
+            "12": 2,
+            "13": 4,
+            "14": 2,
             "15": 1,
             "19": 2,
             "20": 1,
@@ -565,10 +627,11 @@
         },
         "Wednesday": {
             "7": 3,
-            "8": 2,
+            "8": 3,
             "9": 3,
             "10": 1,
             "11": 3,
+            "12": 2,
             "13": 3,
             "14": 1,
             "15": 6,
@@ -580,6 +643,226 @@
     },
     "construct_counts": [],
     "recent_commits": [
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "ad2ef813dd5bab6c14780ade1bc2c9d4ade1b092",
+            "message": "Add/Update requirements.txt",
+            "author": "Brandon Yates",
+            "date": "2024-11-20T12:21:08-05:00",
+            "additions": 6,
+            "deletions": 1,
+            "total_changes": 7
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "59008d26ef25e571099beae16de079a19b06c63d",
+            "message": "Add/Update Readme",
+            "author": "Brandon Yates",
+            "date": "2024-11-20T12:17:26-05:00",
+            "additions": 91,
+            "deletions": 1,
+            "total_changes": 92
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "a7f2967a68ea15a9322808c7c388a4a28677f3ff",
+            "message": "Change button border_width",
+            "author": "Brandon Yates",
+            "date": "2024-10-24T12:02:12-04:00",
+            "additions": 1,
+            "deletions": 0,
+            "total_changes": 1
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "064e982ccfec07320ed458bc36f80c3c7dd0fd61",
+            "message": "Add functionality to create the QR_Codes directory if it doesn't exist",
+            "author": "Brandon Yates",
+            "date": "2024-10-24T10:09:14-04:00",
+            "additions": 17,
+            "deletions": 2,
+            "total_changes": 19
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "53da91fedc09b9ddd9a6d83927356cf3efe18fb7",
+            "message": "Update .gitignore",
+            "author": "Brandon Yates",
+            "date": "2024-10-24T10:08:50-04:00",
+            "additions": 1,
+            "deletions": 0,
+            "total_changes": 1
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "00e22dd9e736c582bd82d6fb06a85eb0f696adf0",
+            "message": "Change version number/size of GUI.",
+            "author": "Brandon Yates",
+            "date": "2024-10-24T09:46:52-04:00",
+            "additions": 3,
+            "deletions": 3,
+            "total_changes": 6
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "4e366833736499f6e7bb1e34c72d9624587db87b",
+            "message": "Add ability to choose if you want to print the QR code or not.",
+            "author": "Brandon Yates",
+            "date": "2024-10-24T09:28:48-04:00",
+            "additions": 23,
+            "deletions": 8,
+            "total_changes": 31
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "bd629dd942c5706e014c2a649b5b1acc554bf207",
+            "message": "Add Try/Except to the print function",
+            "author": "Brandon Yates",
+            "date": "2024-10-23T08:24:07-04:00",
+            "additions": 21,
+            "deletions": 17,
+            "total_changes": 38
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "84265ac1e0cb4485d298fae0048e695487f1ee76",
+            "message": "Add code comments",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T14:10:04-04:00",
+            "additions": 4,
+            "deletions": 1,
+            "total_changes": 5
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "f17dcd281e8519c87590c6a61ecc40113d5110e4",
+            "message": "Add functionality to print and display the QR Code",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T14:01:35-04:00",
+            "additions": 32,
+            "deletions": 3,
+            "total_changes": 35
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "8006100e66d44e036891d4ef597816692a6f8d7a",
+            "message": "Add new imports",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T13:43:52-04:00",
+            "additions": 6,
+            "deletions": 1,
+            "total_changes": 7
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "abb4e4a5bc82a5b17d8844e5e3a7a0ab74e03722",
+            "message": "Mask password entry",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T13:23:37-04:00",
+            "additions": 2,
+            "deletions": 2,
+            "total_changes": 4
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "7baba96a4f239831d152f45b8861d7d20516e166",
+            "message": "Add .gitignore",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T13:18:56-04:00",
+            "additions": 11,
+            "deletions": 1,
+            "total_changes": 12
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "e0a832915a6b1a1fabbf4cae67d5a1e80eb84bb3",
+            "message": "Add function to clear entry boxes after generation",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T13:17:31-04:00",
+            "additions": 10,
+            "deletions": 1,
+            "total_changes": 11
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "00d51436f692fd7e9ab00da7a17829544d059927",
+            "message": "Add function to generate QR codes",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T12:18:40-04:00",
+            "additions": 11,
+            "deletions": 1,
+            "total_changes": 12
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "c2c6cae0619a54a414eb60ee5436185bd7d29ca7",
+            "message": "Finish basic gui",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T12:13:16-04:00",
+            "additions": 22,
+            "deletions": 0,
+            "total_changes": 22
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "7a085fcdc2ffd69e85ec8bb44b81e2e6b50778ef",
+            "message": "Move code to main",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T11:57:19-04:00",
+            "additions": 18,
+            "deletions": 17,
+            "total_changes": 35
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "662ad3b4a7f7125914b932be7f2a46374f24a7eb",
+            "message": "Add base gui",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T11:56:28-04:00",
+            "additions": 12,
+            "deletions": 0,
+            "total_changes": 12
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "87c4636a1f20ccc360539a51d0012fdf09dada07",
+            "message": "Import libraries",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T11:53:20-04:00",
+            "additions": 6,
+            "deletions": 0,
+            "total_changes": 6
+        },
+        {
+            "repo_name": "User-QR-Code-Generator",
+            "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
+            "sha": "0f303be6233b65eed19a41edbcaca7c7fcc26017",
+            "message": "Init files",
+            "author": "Brandon Yates",
+            "date": "2024-10-22T11:51:52-04:00",
+            "additions": 0,
+            "deletions": 0,
+            "total_changes": 0
+        },
         {
             "repo_name": "VCConsole_JS_Scripts",
             "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
