@@ -107,8 +107,8 @@
                 "my_site/my_app/migrations/__init__.py"
             ],
             "libraries": [
-                "os",
-                "sys"
+                "sys",
+                "os"
             ],
             "total_python_files": 13,
             "total_python_lines": 112,
@@ -194,9 +194,9 @@
             ],
             "libraries": [
                 "requests",
+                "pandas",
                 "datetime",
-                "bs4",
-                "pandas"
+                "bs4"
             ],
             "total_python_files": 1,
             "total_python_lines": 120,
@@ -337,14 +337,14 @@
                 "Program/main.py"
             ],
             "libraries": [
-                "os",
+                "customtkinter",
+                "qrcode",
+                "PIL",
+                "gui",
+                "logging",
                 "win32ui",
                 "win32print",
-                "gui",
-                "customtkinter",
-                "logging",
-                "qrcode",
-                "PIL"
+                "os"
             ],
             "total_python_files": 2,
             "total_python_lines": 132,
@@ -1544,160 +1544,6 @@
             "additions": 1,
             "deletions": 1,
             "total_changes": 2
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "97034c5e94cc4a0d4dfa72f7af4d61ac75b65b33",
-            "message": "Change variables for clarification",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T09:33:37-04:00",
-            "additions": 4,
-            "deletions": 3,
-            "total_changes": 7
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "8f7c3d4161f91363c9da735062a4f0b060c49091",
-            "message": "Add addtional confirming toast message",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T09:26:25-04:00",
-            "additions": 1,
-            "deletions": 0,
-            "total_changes": 1
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "a215a38a64c33b5896b5c33c7058b20971b04e34",
-            "message": "Add confirming toast message",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T09:24:39-04:00",
-            "additions": 1,
-            "deletions": 0,
-            "total_changes": 1
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "5ba36e83854e6f37ffd2c170ef675c6c2df06adc",
-            "message": "Add { on else statement",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T09:22:20-04:00",
-            "additions": 3,
-            "deletions": 3,
-            "total_changes": 6
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "5aa6107a8af0aa5f41717a2164ac1db23484f6b6",
-            "message": "Redo function",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T09:10:38-04:00",
-            "additions": 12,
-            "deletions": 10,
-            "total_changes": 22
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "4162a05e4e8810b042319d1cf32e5b2a20ea41b9",
-            "message": "Init file",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T08:38:17-04:00",
-            "additions": 13,
-            "deletions": 0,
-            "total_changes": 13
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "b5fd4ce1d62615543f66d97fabec9a44e5397c17",
-            "message": "Function change",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T07:53:16-04:00",
-            "additions": 4,
-            "deletions": 9,
-            "total_changes": 13
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "0ef894ade905921fb320cd098ac76a0f1d0c2edd",
-            "message": "Add toast message for confirmation",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T07:50:45-04:00",
-            "additions": 1,
-            "deletions": 0,
-            "total_changes": 1
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "0521f35e3994b5ca27fb4424cf934216137ec52a",
-            "message": "Add delay",
-            "author": "Brandon Yates",
-            "date": "2024-08-27T07:49:13-04:00",
-            "additions": 7,
-            "deletions": 8,
-            "total_changes": 15
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "b74ea7585ed90490f985cbe639df4cccf953d50d",
-            "message": "Comment toast message - confirmed working",
-            "author": "Brandon Yates",
-            "date": "2024-08-26T14:24:07-04:00",
-            "additions": 1,
-            "deletions": 1,
-            "total_changes": 2
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "2cd9891a2767672382dc355fbdf369046f2439f3",
-            "message": "Add toast to indicate script working",
-            "author": "Brandon Yates",
-            "date": "2024-08-26T14:19:19-04:00",
-            "additions": 1,
-            "deletions": 0,
-            "total_changes": 1
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "cbda5c08b131cfe579d92547d3dbc7a50728fd02",
-            "message": "Init file",
-            "author": "Brandon Yates",
-            "date": "2024-08-26T14:18:03-04:00",
-            "additions": 5,
-            "deletions": 0,
-            "total_changes": 5
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "b1adb981c193328a18eb660ad1dcd5016d4477e1",
-            "message": "Add function call",
-            "author": "Brandon Yates",
-            "date": "2024-08-26T11:10:44-04:00",
-            "additions": 4,
-            "deletions": 1,
-            "total_changes": 5
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "0559d0c301a9c2eeeb1e9ca009ae0e415bdd6532",
-            "message": "Add file for 315 screen",
-            "author": "Brandon Yates",
-            "date": "2024-08-26T11:06:39-04:00",
-            "additions": 16,
-            "deletions": 0,
-            "total_changes": 16
         }
     ],
     "merged_prs": []
