@@ -29,18 +29,18 @@
 ---
 
 
-### Data last generated on: 2024-11-25 via [GitHub Action 12012039181](https://github.com/sockheadrps/sockheadrps/actions/runs/12012039181)
+### Data last generated on: 2024-11-29 via [GitHub Action 12087935311](https://github.com/sockheadrps/sockheadrps/actions/runs/12087935311)
 
 ## 🚀 Recent Commits
 
-- **User-QR-Code-Generator - [Add/Update requirements.txt](https://github.com/Brand07/User-QR-Code-Generator/commit/ad2ef813dd5bab6c14780ade1bc2c9d4ade1b092)**
-  - Additions: 6 - Deletions: 1 - Total Changes: 7
+- **CS193P-Course-Files - [Add opacity to cards in LazyVGrid, add cards into ScrollView](https://github.com/Brand07/CS193P-Course-Files/commit/1cd1bdc547cddfc482f08c1f234e63f71c2e470d)**
+  - Additions: 15 - Deletions: 13 - Total Changes: 28
 
-- **User-QR-Code-Generator - [Add/Update Readme](https://github.com/Brand07/User-QR-Code-Generator/commit/59008d26ef25e571099beae16de079a19b06c63d)**
-  - Additions: 91 - Deletions: 1 - Total Changes: 92
+- **CS193P-Course-Files - [Refactor code to encapsulate buttons and logic into a single function](https://github.com/Brand07/CS193P-Course-Files/commit/e41d25414304fcb815bc614cdeaecaa580a18f2c)**
+  - Additions: 46 - Deletions: 35 - Total Changes: 81
 
-- **User-QR-Code-Generator - [Change button border_width](https://github.com/Brand07/User-QR-Code-Generator/commit/a7f2967a68ea15a9322808c7c388a4a28677f3ff)**
-  - Additions: 1 - Deletions: 0 - Total Changes: 1
+- **CS193P-Course-Files - [Add logic to avoid going out of emoji index range](https://github.com/Brand07/CS193P-Course-Files/commit/48cf25a99e8a5e4d95fc1d09a05e2832c324c30c)**
+  - Additions: 8 - Deletions: 4 - Total Changes: 12
 
 
 # 📊 Python Stats:

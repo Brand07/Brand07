@@ -90,6 +90,46 @@
             }
         },
         {
+            "repo_name": "CS193P-Course-Files",
+            "python_files": [],
+            "libraries": [],
+            "total_python_files": 0,
+            "total_python_lines": 0,
+            "file_extensions": {
+                ".pbxproj": 1,
+                ".swift": 2,
+                ".xcworkspacedata": 1,
+                ".json": 4,
+                ".xcuserstate": 1,
+                ".plist": 1
+            },
+            "total_commits": 14,
+            "commit_messages": [
+                "Add opacity to cards in LazyVGrid, add cards into ScrollView",
+                "Refactor code to encapsulate buttons and logic into a single function",
+                "Add logic to avoid going out of emoji index range",
+                "Change add/remove text to buttons",
+                "Add Buttons to add and remove cards",
+                "Remove hard-coded range, replaced with emoji.indicies",
+                "Add ForEach loop to minimize code on emoji view",
+                ".toggle() on bool value",
+                "Add onTapGesture",
+                "Add variables, bool, and if statement",
+                "Add more modifications",
+                "Change text/Add different items in the view, apply different styles",
+                "Add code comments",
+                "Init files"
+            ],
+            "construct_counts": {
+                "if statements": 0,
+                "while loops": 0,
+                "for loops": 0,
+                "regular functions created": 0,
+                "async functions created": 0,
+                "classes created": 0
+            }
+        },
+        {
             "repo_name": "Django_Udemy_Course",
             "python_files": [
                 "my_site/manage.py",
@@ -107,8 +147,8 @@
                 "my_site/my_app/migrations/__init__.py"
             ],
             "libraries": [
-                "sys",
-                "os"
+                "os",
+                "sys"
             ],
             "total_python_files": 13,
             "total_python_lines": 112,
@@ -193,10 +233,10 @@
                 "HP_Printer_Scrape.py"
             ],
             "libraries": [
-                "requests",
                 "pandas",
+                "bs4",
                 "datetime",
-                "bs4"
+                "requests"
             ],
             "total_python_files": 1,
             "total_python_lines": 120,
@@ -337,14 +377,14 @@
                 "Program/main.py"
             ],
             "libraries": [
-                "customtkinter",
-                "qrcode",
-                "PIL",
                 "gui",
-                "logging",
                 "win32ui",
+                "PIL",
+                "os",
+                "logging",
                 "win32print",
-                "os"
+                "qrcode",
+                "customtkinter"
             ],
             "total_python_files": 2,
             "total_python_lines": 132,
@@ -622,8 +662,9 @@
             "15": 1,
             "19": 2,
             "20": 1,
-            "21": 4,
-            "22": 1
+            "21": 5,
+            "22": 4,
+            "23": 1
         },
         "Wednesday": {
             "7": 3,
@@ -637,12 +678,167 @@
             "15": 6,
             "16": 5,
             "20": 1,
-            "21": 3,
-            "23": 7
+            "21": 6,
+            "22": 5,
+            "23": 8
         }
     },
     "construct_counts": [],
     "recent_commits": [
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "1cd1bdc547cddfc482f08c1f234e63f71c2e470d",
+            "message": "Add opacity to cards in LazyVGrid, add cards into ScrollView",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T23:05:02-05:00",
+            "additions": 15,
+            "deletions": 13,
+            "total_changes": 28
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "e41d25414304fcb815bc614cdeaecaa580a18f2c",
+            "message": "Refactor code to encapsulate buttons and logic into a single function",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T22:50:35-05:00",
+            "additions": 46,
+            "deletions": 35,
+            "total_changes": 81
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "48cf25a99e8a5e4d95fc1d09a05e2832c324c30c",
+            "message": "Add logic to avoid going out of emoji index range",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T22:28:11-05:00",
+            "additions": 8,
+            "deletions": 4,
+            "total_changes": 12
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "8269c55b7dfb8016de8f1d9e67bcdfa87b4394ac",
+            "message": "Change add/remove text to buttons",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T22:25:20-05:00",
+            "additions": 14,
+            "deletions": 5,
+            "total_changes": 19
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "d86311363bd54c64c985115d54f7926c8fc60a84",
+            "message": "Add Buttons to add and remove cards",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T22:16:48-05:00",
+            "additions": 22,
+            "deletions": 9,
+            "total_changes": 31
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "e04c6cbd5eacaec1bfc5bf6dfeec8a342434e22e",
+            "message": "Remove hard-coded range, replaced with emoji.indicies",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T22:00:40-05:00",
+            "additions": 2,
+            "deletions": 8,
+            "total_changes": 10
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "3d9d6a68da8c8fe872a768fceb5c1b5010d23527",
+            "message": "Add ForEach loop to minimize code on emoji view",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T21:58:59-05:00",
+            "additions": 12,
+            "deletions": 6,
+            "total_changes": 18
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "f22ed6b6c3e44e3597938315c6128d50f6847f1e",
+            "message": ".toggle() on bool value",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T21:46:06-05:00",
+            "additions": 2,
+            "deletions": 2,
+            "total_changes": 4
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "2dd37cd9d216b58ccfaf3eee7bac6f07459c3760",
+            "message": "Add onTapGesture",
+            "author": "Brandon Yates",
+            "date": "2024-11-27T21:43:38-05:00",
+            "additions": 8,
+            "deletions": 8,
+            "total_changes": 16
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "8133323487c12c8e67338058259677c45733ffcc",
+            "message": "Add variables, bool, and if statement",
+            "author": "Brandon Yates",
+            "date": "2024-11-26T23:02:43-05:00",
+            "additions": 37,
+            "deletions": 13,
+            "total_changes": 50
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "0b8649db4aa68e1da46a1da86c82e8fd0f2246a0",
+            "message": "Add more modifications",
+            "author": "Brandon Yates",
+            "date": "2024-11-26T22:39:55-05:00",
+            "additions": 6,
+            "deletions": 2,
+            "total_changes": 8
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "7aeae1cee846bec3bcb3189b2aabd1c6885a58b3",
+            "message": "Change text/Add different items in the view, apply different styles",
+            "author": "Brandon Yates",
+            "date": "2024-11-26T22:30:45-05:00",
+            "additions": 6,
+            "deletions": 5,
+            "total_changes": 11
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "fbef9d31a47eb42828a6437513d66b478caa4521",
+            "message": "Add code comments",
+            "author": "Brandon Yates",
+            "date": "2024-11-26T22:25:45-05:00",
+            "additions": 7,
+            "deletions": 1,
+            "total_changes": 8
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "b94a1b1588c6a5d1d52ff0e892705c1e4faa9b25",
+            "message": "Init files",
+            "author": "Brandon Yates",
+            "date": "2024-11-26T21:21:40-05:00",
+            "additions": 447,
+            "deletions": 0,
+            "total_changes": 447
+        },
         {
             "repo_name": "User-QR-Code-Generator",
             "repo_url": "https://github.com/Brand07/User-QR-Code-Generator",
@@ -1500,50 +1696,6 @@
             "additions": 0,
             "deletions": 0,
             "total_changes": 0
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "c87bcbaa6385e57cdaa62e51fc0759141a8f9f7a",
-            "message": "Add logic as described",
-            "author": "Brandon Yates",
-            "date": "2024-08-30T09:04:21-04:00",
-            "additions": 27,
-            "deletions": 0,
-            "total_changes": 27
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "5173ac429580aea2dbc071878e913e1d07623744",
-            "message": "Add description comments",
-            "author": "Brandon Yates",
-            "date": "2024-08-30T09:00:19-04:00",
-            "additions": 39,
-            "deletions": 0,
-            "total_changes": 39
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "b4d479dc80eed5830025f01a18d5d7647439a4fd",
-            "message": "Add folder structure",
-            "author": "Brandon Yates",
-            "date": "2024-08-30T08:57:48-04:00",
-            "additions": 0,
-            "deletions": 0,
-            "total_changes": 0
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "7a9c03cddb8c40313b5b461188d47d957680d0aa",
-            "message": "Add 150ms delay",
-            "author": "Brandon Yates",
-            "date": "2024-08-28T07:36:38-04:00",
-            "additions": 1,
-            "deletions": 1,
-            "total_changes": 2
         }
     ],
     "merged_prs": []
