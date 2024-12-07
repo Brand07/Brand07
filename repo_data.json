@@ -97,14 +97,16 @@
             "total_python_lines": 0,
             "file_extensions": {
                 ".pbxproj": 1,
-                ".swift": 2,
+                ".swift": 4,
                 ".xcworkspacedata": 1,
                 ".json": 4,
                 ".xcuserstate": 1,
                 ".plist": 1
             },
-            "total_commits": 14,
+            "total_commits": 16,
             "commit_messages": [
+                "Init EmojiMemoryGame.swift",
+                "Remove game logic code from view/init MemorizeGame.swift",
                 "Add opacity to cards in LazyVGrid, add cards into ScrollView",
                 "Refactor code to encapsulate buttons and logic into a single function",
                 "Add logic to avoid going out of emoji index range",
@@ -147,8 +149,8 @@
                 "my_site/my_app/migrations/__init__.py"
             ],
             "libraries": [
-                "os",
-                "sys"
+                "sys",
+                "os"
             ],
             "total_python_files": 13,
             "total_python_lines": 112,
@@ -233,9 +235,9 @@
                 "HP_Printer_Scrape.py"
             ],
             "libraries": [
+                "datetime",
                 "pandas",
                 "bs4",
-                "datetime",
                 "requests"
             ],
             "total_python_files": 1,
@@ -328,6 +330,41 @@
             }
         },
         {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "python_files": [
+                "main.py"
+            ],
+            "libraries": [
+                "os",
+                "pandas",
+                "helium",
+                "dotenv"
+            ],
+            "total_python_files": 1,
+            "total_python_lines": 58,
+            "file_extensions": {
+                ".gitignore": 1,
+                ".md": 1,
+                ".py": 1
+            },
+            "total_commits": 5,
+            "commit_messages": [
+                "Start building add_user function",
+                "Add iteration over the Excel file to add users",
+                "Setup auto-login",
+                "Add login function/update .gitignore",
+                "Initial commit"
+            ],
+            "construct_counts": {
+                "if statements": 1,
+                "while loops": 0,
+                "for loops": 2,
+                "regular functions created": 4,
+                "async functions created": 0,
+                "classes created": 0
+            }
+        },
+        {
             "repo_name": "SwiftUI-Africa-App",
             "python_files": [],
             "libraries": [],
@@ -377,12 +414,12 @@
                 "Program/main.py"
             ],
             "libraries": [
+                "os",
                 "gui",
                 "win32ui",
-                "PIL",
-                "os",
-                "logging",
                 "win32print",
+                "logging",
+                "PIL",
                 "qrcode",
                 "customtkinter"
             ],
@@ -620,9 +657,12 @@
             "12": 5,
             "13": 1,
             "14": 3,
+            "19": 2,
             "23": 6
         },
         "Saturday": {
+            "14": 1,
+            "15": 4,
             "19": 1,
             "20": 3,
             "21": 1,
@@ -685,6 +725,28 @@
     },
     "construct_counts": [],
     "recent_commits": [
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "b0ca94d215038aea93cf91a9e42683dab5b997db",
+            "message": "Init EmojiMemoryGame.swift",
+            "author": "Brandon Yates",
+            "date": "2024-12-02T19:55:05-05:00",
+            "additions": 8,
+            "deletions": 0,
+            "total_changes": 8
+        },
+        {
+            "repo_name": "CS193P-Course-Files",
+            "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
+            "sha": "83172f43e4518af38c8681469097a1ba8523e833",
+            "message": "Remove game logic code from view/init MemorizeGame.swift",
+            "author": "Brandon Yates",
+            "date": "2024-12-02T19:39:30-05:00",
+            "additions": 8,
+            "deletions": 0,
+            "total_changes": 8
+        },
         {
             "repo_name": "CS193P-Course-Files",
             "repo_url": "https://github.com/Brand07/CS193P-Course-Files",
@@ -838,6 +900,61 @@
             "additions": 447,
             "deletions": 0,
             "total_changes": 447
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "3411d9374b3e598065e892ee8f603a19f1acc907",
+            "message": "Start building add_user function",
+            "author": "Brandon Yates",
+            "date": "2024-12-07T15:59:26-05:00",
+            "additions": 11,
+            "deletions": 0,
+            "total_changes": 11
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "bdde146d5d942fca32d7e9d1889cf1f73c32b1e8",
+            "message": "Add iteration over the Excel file to add users",
+            "author": "Brandon Yates",
+            "date": "2024-12-07T15:29:32-05:00",
+            "additions": 16,
+            "deletions": 1,
+            "total_changes": 17
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "cbec55667357b47ccca025df5e4fe05ee9aa8f75",
+            "message": "Setup auto-login",
+            "author": "Brandon Yates",
+            "date": "2024-12-07T15:23:28-05:00",
+            "additions": 12,
+            "deletions": 1,
+            "total_changes": 13
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "6a99c99b87633b13c3272931c468dccbabcdf9c0",
+            "message": "Add login function/update .gitignore",
+            "author": "Brandon Yates",
+            "date": "2024-12-07T15:09:38-05:00",
+            "additions": 24,
+            "deletions": 0,
+            "total_changes": 24
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "1eff6639ea421c3e3bac37e5ac8fa7e43d71e90b",
+            "message": "Initial commit",
+            "author": "Brand07",
+            "date": "2024-12-07T14:19:51-05:00",
+            "additions": 164,
+            "deletions": 0,
+            "total_changes": 164
         },
         {
             "repo_name": "User-QR-Code-Generator",
@@ -1619,83 +1736,6 @@
             "additions": 32,
             "deletions": 0,
             "total_changes": 32
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "0485209a2adaee2fae9f1ec3ffd82cfee57ad5c5",
-            "message": "Change beep codes",
-            "author": "Brandon Yates",
-            "date": "2024-09-05T11:30:08-04:00",
-            "additions": 1,
-            "deletions": 1,
-            "total_changes": 2
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "20e12101b43b7a89dd15c903ace056a66c42909e",
-            "message": "Comment auto-enters - session profile already accomplishes this",
-            "author": "Brandon Yates",
-            "date": "2024-09-05T10:48:50-04:00",
-            "additions": 4,
-            "deletions": 4,
-            "total_changes": 8
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "f23309ada9de20928b030b51894d2b248d6647aa",
-            "message": "Add timeout function to allow time for data to be entered",
-            "author": "Brandon Yates",
-            "date": "2024-09-05T10:24:18-04:00",
-            "additions": 12,
-            "deletions": 6,
-            "total_changes": 18
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "137369e5eabf4d0aed5050742bd2c23dda6b22d9",
-            "message": "Add script for auto-enter on the 311 screen",
-            "author": "Brandon Yates",
-            "date": "2024-09-05T10:16:11-04:00",
-            "additions": 11,
-            "deletions": 0,
-            "total_changes": 11
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "e8bffb6b5834150bc4db0cdac9bdb97f47534f43",
-            "message": "Init file",
-            "author": "Brandon Yates",
-            "date": "2024-09-05T10:04:54-04:00",
-            "additions": 170,
-            "deletions": 0,
-            "total_changes": 170
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "e2aef567996c36250152380bd28fe1b1c4a68db9",
-            "message": "Change beep tones",
-            "author": "Brandon Yates",
-            "date": "2024-09-05T08:32:51-04:00",
-            "additions": 3,
-            "deletions": 3,
-            "total_changes": 6
-        },
-        {
-            "repo_name": "VCConsole_JS_Scripts",
-            "repo_url": "https://github.com/Brand07/VCConsole_JS_Scripts",
-            "sha": "a393463f8380dccb5427fcd6c61bfe9dafe6ea20",
-            "message": "Restructure folder(s)",
-            "author": "Brandon Yates",
-            "date": "2024-09-05T08:21:56-04:00",
-            "additions": 0,
-            "deletions": 0,
-            "total_changes": 0
         }
     ],
     "merged_prs": []
