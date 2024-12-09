@@ -236,8 +236,8 @@
             ],
             "libraries": [
                 "datetime",
-                "pandas",
                 "bs4",
+                "pandas",
                 "requests"
             ],
             "total_python_files": 1,
@@ -332,23 +332,35 @@
         {
             "repo_name": "Python--Apex-Connect-And-Go",
             "python_files": [
-                "main.py"
+                "main.py",
+                "reference.py"
             ],
             "libraries": [
                 "os",
+                "selenium",
+                "dotenv",
+                "time",
                 "pandas",
-                "helium",
-                "dotenv"
+                "helium"
             ],
-            "total_python_files": 1,
-            "total_python_lines": 58,
+            "total_python_files": 2,
+            "total_python_lines": 560,
             "file_extensions": {
                 ".gitignore": 1,
                 ".md": 1,
-                ".py": 1
+                ".py": 2
             },
-            "total_commits": 5,
+            "total_commits": 14,
             "commit_messages": [
+                "Update gitignore",
+                "Fix badge number formatting.",
+                "Add badge formatting",
+                "Complete baseline check for existing users. Complete baseline check for users that don't exist.",
+                "Update add logic",
+                "Configure checkbox editing",
+                "Configure initial add/edit user logic",
+                "Add badge format function",
+                "Add check for existing user",
                 "Start building add_user function",
                 "Add iteration over the Excel file to add users",
                 "Setup auto-login",
@@ -356,10 +368,10 @@
                 "Initial commit"
             ],
             "construct_counts": {
-                "if statements": 1,
+                "if statements": 21,
                 "while loops": 0,
-                "for loops": 2,
-                "regular functions created": 4,
+                "for loops": 15,
+                "regular functions created": 20,
                 "async functions created": 0,
                 "classes created": 0
             }
@@ -414,13 +426,13 @@
                 "Program/main.py"
             ],
             "libraries": [
+                "qrcode",
                 "os",
-                "gui",
-                "win32ui",
-                "win32print",
                 "logging",
                 "PIL",
-                "qrcode",
+                "win32ui",
+                "win32print",
+                "gui",
                 "customtkinter"
             ],
             "total_python_files": 2,
@@ -651,12 +663,13 @@
         },
         "Monday": {
             "2": 2,
-            "9": 3,
-            "10": 9,
+            "9": 5,
+            "10": 10,
             "11": 7,
-            "12": 5,
+            "12": 6,
             "13": 1,
-            "14": 3,
+            "14": 4,
+            "16": 4,
             "19": 2,
             "23": 6
         },
@@ -900,6 +913,105 @@
             "additions": 447,
             "deletions": 0,
             "total_changes": 447
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "3b208f8555335b3a9476acd8cf7b20a54d44cb9d",
+            "message": "Update gitignore",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T16:18:12-05:00",
+            "additions": 3,
+            "deletions": 0,
+            "total_changes": 3
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "b03853e20cbe454a559e246c6ae7c3af12c6c40d",
+            "message": "Fix badge number formatting.",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T16:15:33-05:00",
+            "additions": 2,
+            "deletions": 2,
+            "total_changes": 4
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "1edb4b127db0686be80df392c6cd182f6947d84e",
+            "message": "Add badge formatting",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T16:06:27-05:00",
+            "additions": 2,
+            "deletions": 2,
+            "total_changes": 4
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "cc60153999ddc7fd8b32c134d902350cb8931a78",
+            "message": "Complete baseline check for existing users. Complete baseline check for users that don't exist.",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T16:05:24-05:00",
+            "additions": 36,
+            "deletions": 23,
+            "total_changes": 59
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "3e6d3cda03e0cd6c32b6e6b8ba5fd7886ab925de",
+            "message": "Update add logic",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T14:36:36-05:00",
+            "additions": 87,
+            "deletions": 14,
+            "total_changes": 101
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "51a41a4ffb3f8e9ead4cff3644250ead1a795f82",
+            "message": "Configure checkbox editing",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T12:02:28-05:00",
+            "additions": 28,
+            "deletions": 7,
+            "total_changes": 35
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "e5d4615d9b098b2adebb5ee553aba9e239abd51b",
+            "message": "Configure initial add/edit user logic",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T10:06:51-05:00",
+            "additions": 37,
+            "deletions": 1,
+            "total_changes": 38
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "fe1e4a167a57ce1c039cb42abbeb4dc4ae833c4b",
+            "message": "Add badge format function",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T09:37:21-05:00",
+            "additions": 345,
+            "deletions": 1,
+            "total_changes": 346
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "6644fd7e0f5c3e083470611bee68c72bcd513bbd",
+            "message": "Add check for existing user",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T09:26:02-05:00",
+            "additions": 16,
+            "deletions": 0,
+            "total_changes": 16
         },
         {
             "repo_name": "Python--Apex-Connect-And-Go",
