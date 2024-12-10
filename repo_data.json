@@ -235,10 +235,10 @@
                 "HP_Printer_Scrape.py"
             ],
             "libraries": [
-                "datetime",
+                "requests",
                 "bs4",
-                "pandas",
-                "requests"
+                "datetime",
+                "pandas"
             ],
             "total_python_files": 1,
             "total_python_lines": 120,
@@ -332,26 +332,46 @@
         {
             "repo_name": "Python--Apex-Connect-And-Go",
             "python_files": [
-                "main.py",
-                "reference.py"
+                "exceptions.py",
+                "main.py"
             ],
             "libraries": [
-                "os",
-                "selenium",
-                "dotenv",
+                "exceptions",
+                "helium",
+                "sys",
                 "time",
+                "dotenv",
+                "logging",
                 "pandas",
-                "helium"
+                "os"
             ],
             "total_python_files": 2,
-            "total_python_lines": 560,
+            "total_python_lines": 279,
             "file_extensions": {
                 ".gitignore": 1,
+                "LICENSE": 1,
+                ".xlsx": 1,
                 ".md": 1,
-                ".py": 2
+                ".py": 2,
+                ".txt": 1
             },
-            "total_commits": 14,
+            "total_commits": 29,
             "commit_messages": [
+                "update README.md",
+                "Add LICENSE",
+                "Update README with instructions/requirements",
+                "Add exceptions",
+                "Add exceptions",
+                "Add requirements.txt",
+                "Reformat code for cleaner look",
+                "Remove print statements/setup loggig/update gitignore",
+                "Add function comment on add_user",
+                "Remove unnecessary imports/print statements",
+                "Add counters for users edited and users added.",
+                "Update README.md",
+                "Include .xlsx template",
+                "Remove file",
+                "Update gitignore",
                 "Update gitignore",
                 "Fix badge number formatting.",
                 "Add badge formatting",
@@ -368,12 +388,12 @@
                 "Initial commit"
             ],
             "construct_counts": {
-                "if statements": 21,
+                "if statements": 7,
                 "while loops": 0,
-                "for loops": 15,
-                "regular functions created": 20,
+                "for loops": 4,
+                "regular functions created": 10,
                 "async functions created": 0,
-                "classes created": 0
+                "classes created": 1
             }
         },
         {
@@ -426,14 +446,14 @@
                 "Program/main.py"
             ],
             "libraries": [
-                "qrcode",
-                "os",
-                "logging",
-                "PIL",
                 "win32ui",
+                "PIL",
                 "win32print",
+                "customtkinter",
+                "qrcode",
+                "logging",
                 "gui",
-                "customtkinter"
+                "os"
             ],
             "total_python_files": 2,
             "total_python_lines": 132,
@@ -669,8 +689,10 @@
             "12": 6,
             "13": 1,
             "14": 4,
-            "16": 4,
+            "16": 8,
             "19": 2,
+            "20": 2,
+            "21": 9,
             "23": 6
         },
         "Saturday": {
@@ -913,6 +935,171 @@
             "additions": 447,
             "deletions": 0,
             "total_changes": 447
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "4d22a033ab5ea0e40c9b64edc136bc10a220affc",
+            "message": "update README.md",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:44:40-05:00",
+            "additions": 4,
+            "deletions": 0,
+            "total_changes": 4
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "f8e2de30d131f0a91504e032713f07d07731063d",
+            "message": "Add LICENSE",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:35:46-05:00",
+            "additions": 21,
+            "deletions": 0,
+            "total_changes": 21
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "835b6ccd7a8ec974cd2e2267b3865dabfc99c80d",
+            "message": "Update README with instructions/requirements",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:33:24-05:00",
+            "additions": 59,
+            "deletions": 3,
+            "total_changes": 62
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "d65907b5fe7725a229729be0e798c5a0cf34ed6b",
+            "message": "Add exceptions",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:29:42-05:00",
+            "additions": 7,
+            "deletions": 0,
+            "total_changes": 7
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "66b382f07134ea721e41ebe824242551dc099c6d",
+            "message": "Add exceptions",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:29:37-05:00",
+            "additions": 2,
+            "deletions": 0,
+            "total_changes": 2
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "ca03b5399eadb8921d858cd290ac7380dae79cff",
+            "message": "Add requirements.txt",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:19:18-05:00",
+            "additions": 3,
+            "deletions": 0,
+            "total_changes": 3
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "e282c80891b08f51b9262552166eddfd86885dcf",
+            "message": "Reformat code for cleaner look",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:17:15-05:00",
+            "additions": 63,
+            "deletions": 57,
+            "total_changes": 120
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "beb6b64f49633ae08727088ddd1857345f9a6c4c",
+            "message": "Remove print statements/setup loggig/update gitignore",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:11:46-05:00",
+            "additions": 17,
+            "deletions": 4,
+            "total_changes": 21
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "95719b683b1267045f0be7732ccfdf00390cfe7d",
+            "message": "Add function comment on add_user",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T21:02:24-05:00",
+            "additions": 9,
+            "deletions": 2,
+            "total_changes": 11
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "26d1fc3a84cac096c8802fb4712ce15e33954a8d",
+            "message": "Remove unnecessary imports/print statements",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T20:59:00-05:00",
+            "additions": 2,
+            "deletions": 6,
+            "total_changes": 8
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "eb50835f2f59997d6697313ab72228fbc4a0f350",
+            "message": "Add counters for users edited and users added.",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T20:57:10-05:00",
+            "additions": 14,
+            "deletions": 10,
+            "total_changes": 24
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "09fd0f5f74f8e70ebfd09992618d53e3ac1cbb3c",
+            "message": "Update README.md",
+            "author": "Brand07",
+            "date": "2024-12-09T16:22:18-05:00",
+            "additions": 1,
+            "deletions": 0,
+            "total_changes": 1
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "ccef7c182754cc487dc287bd6e435ffc57040372",
+            "message": "Include .xlsx template",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T16:21:31-05:00",
+            "additions": 1,
+            "deletions": 1,
+            "total_changes": 2
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "c68461a70fea834654a0edab2630a9e43e7840aa",
+            "message": "Remove file",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T16:19:36-05:00",
+            "additions": 0,
+            "deletions": 315,
+            "total_changes": 315
+        },
+        {
+            "repo_name": "Python--Apex-Connect-And-Go",
+            "repo_url": "https://github.com/Brand07/Python--Apex-Connect-And-Go",
+            "sha": "ce27caba3895e9bd8375118f4a26830368bebe1b",
+            "message": "Update gitignore",
+            "author": "Brandon Yates",
+            "date": "2024-12-09T16:18:40-05:00",
+            "additions": 1,
+            "deletions": 1,
+            "total_changes": 2
         },
         {
             "repo_name": "Python--Apex-Connect-And-Go",

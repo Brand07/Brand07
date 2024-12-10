@@ -29,24 +29,24 @@
 ---
 
 
-### Data last generated on: 2024-12-09 via [GitHub Action 12244447188](https://github.com/sockheadrps/sockheadrps/actions/runs/12244447188)
+### Data last generated on: 2024-12-10 via [GitHub Action 12248383749](https://github.com/sockheadrps/sockheadrps/actions/runs/12248383749)
 
 ## 🚀 Recent Commits
 
-- **Python--Apex-Connect-And-Go - [Update gitignore](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/3b208f8555335b3a9476acd8cf7b20a54d44cb9d)**
-  - Additions: 3 - Deletions: 0 - Total Changes: 3
+- **Python--Apex-Connect-And-Go - [update README.md](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/4d22a033ab5ea0e40c9b64edc136bc10a220affc)**
+  - Additions: 4 - Deletions: 0 - Total Changes: 4
 
-- **Python--Apex-Connect-And-Go - [Fix badge number formatting.](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/b03853e20cbe454a559e246c6ae7c3af12c6c40d)**
-  - Additions: 2 - Deletions: 2 - Total Changes: 4
+- **Python--Apex-Connect-And-Go - [Add LICENSE](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/f8e2de30d131f0a91504e032713f07d07731063d)**
+  - Additions: 21 - Deletions: 0 - Total Changes: 21
 
-- **Python--Apex-Connect-And-Go - [Add badge formatting](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/1edb4b127db0686be80df392c6cd182f6947d84e)**
-  - Additions: 2 - Deletions: 2 - Total Changes: 4
+- **Python--Apex-Connect-And-Go - [Update README with instructions/requirements](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/835b6ccd7a8ec974cd2e2267b3865dabfc99c80d)**
+  - Additions: 59 - Deletions: 3 - Total Changes: 62
 
 
 # 📊 Python Stats:
 
-### Total Lines of Python Code: 992
-### Total Libraries/Modules Imported: 17
+### Total Lines of Python Code: 711
+### Total Libraries/Modules Imported: 18
 ### Total Python Files: 19
 ![](DataVisuals/data.gif)
 
