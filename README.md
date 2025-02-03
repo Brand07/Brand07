@@ -26,27 +26,4 @@
 ![Brand07's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Brand07&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 
 
----
-
-
-### Data last generated on: 2024-12-10 via [GitHub Action 12248383749](https://github.com/sockheadrps/sockheadrps/actions/runs/12248383749)
-
-## 🚀 Recent Commits
-
-- **Python--Apex-Connect-And-Go - [update README.md](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/4d22a033ab5ea0e40c9b64edc136bc10a220affc)**
-  - Additions: 4 - Deletions: 0 - Total Changes: 4
-
-- **Python--Apex-Connect-And-Go - [Add LICENSE](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/f8e2de30d131f0a91504e032713f07d07731063d)**
-  - Additions: 21 - Deletions: 0 - Total Changes: 21
-
-- **Python--Apex-Connect-And-Go - [Update README with instructions/requirements](https://github.com/Brand07/Python--Apex-Connect-And-Go/commit/835b6ccd7a8ec974cd2e2267b3865dabfc99c80d)**
-  - Additions: 59 - Deletions: 3 - Total Changes: 62
-
-
-# 📊 Python Stats:
-
-### Total Lines of Python Code: 711
-### Total Libraries/Modules Imported: 18
-### Total Python Files: 19
-![](DataVisuals/data.gif)
 
