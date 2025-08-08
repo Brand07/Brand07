@@ -1,3 +1,6 @@
+[![Vaunt
+Community](https://api.vaunt.dev/v1/github/entities/{Brand07}/badges/community)](https://community.vaunt.dev/board/{Brand07})
+
 <p>
   <a href="https://vaunt.dev">
     <img
