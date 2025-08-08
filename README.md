@@ -1,7 +1,23 @@
+<p>
+  <a href="https://vaunt.dev">
+    <img
+      src="https://api.vaunt.dev/v1/github/entities/{Brand07}/contributions?format=svg&private=true"
+      width="350"
+      title="Includes public and private contributions"
+    />
+  </a>
+</p>
 
+<p>
+  <a href="https://community.vaunt.dev/board/{Brand07}/achievements">
+    <img
+      src="https://api.vaunt.dev/v1/github/entities/{github_username}/achievements?format=svg&limit=6"
+      width="350"
+    />
+  </a>
+</p>
 
-
-<img src="https://komarev.com/ghpvc/?username=Brand07&style=flat-square&color=blue" alt=""/>
+<p>
 
 
 
