@@ -1,26 +1,15 @@
 [![Vaunt
-Community](https://api.vaunt.dev/v1/github/entities/{Brand07}/badges/community)](https://community.vaunt.dev/board/{Brand07})
+Community](https://api.vaunt.dev/v1/github/entities/Brand07/badges/community)](https://community.vaunt.dev/board/Brand07)
 
 <p>
   <a href="https://vaunt.dev">
     <img
-      src="https://api.vaunt.dev/v1/github/entities/{Brand07}/contributions?format=svg&private=true"
+      src="https://api.vaunt.dev/v1/github/entities/Brand07/contributions?format=svg&private=true"
       width="350"
       title="Includes public and private contributions"
     />
   </a>
 </p>
-
-<p>
-  <a href="https://community.vaunt.dev/board/{Brand07}/achievements">
-    <img
-      src="https://api.vaunt.dev/v1/github/entities/{github_username}/achievements?format=svg&limit=6"
-      width="350"
-    />
-  </a>
-</p>
-
-<p>
 
 
 
@@ -40,7 +29,7 @@ Community](https://api.vaunt.dev/v1/github/entities/{Brand07}/badges/community)]
 
 
 ### My Stats:
-![Brand07's Stats](https://github-readme-stats.vercel.app/api?username=Brand07&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+
 
 ![Brand07's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Brand07&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 
