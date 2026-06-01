@@ -26,6 +26,9 @@ Community](https://api.vaunt.dev/v1/github/entities/Brand07/badges/community)](h
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg", width="40" height="40" />      
 </div>
 
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-stats-organization-github-readme-stats.svg)
 
 
 
