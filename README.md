@@ -1,18 +1,3 @@
-[![Vaunt
-Community](https://api.vaunt.dev/v1/github/entities/Brand07/badges/community)](https://community.vaunt.dev/board/Brand07)
-
-<p>
-  <a href="https://vaunt.dev">
-    <img
-      src="https://api.vaunt.dev/v1/github/entities/Brand07/contributions?format=svg&private=true"
-      width="350"
-      title="Includes public and private contributions"
-    />
-  </a>
-</p>
-
-
-
 ### :hammer_and_wrench: Languages and Tools :
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg", title="CSS", alt="CSS" width="40" heigh="40" />&nbsp;
