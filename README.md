@@ -28,10 +28,6 @@ Community](https://api.vaunt.dev/v1/github/entities/Brand07/badges/community)](h
 
 
 
-### My Stats:
-
-
-![Brand07's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Brand07&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 
 
 
