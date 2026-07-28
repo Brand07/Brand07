@@ -43,7 +43,6 @@ Welcome to my GitHub profile. I work with infrastructure, automation, and full-s
 
 - 🔧 Infrastructure automation and IT operations
 - 🐍 Python-based scripting and API integrations
-- 🎯 Full-stack web development
 - 💡 Open-source contributions and tinkering
 
 ---
